@@ -1,4 +1,4 @@
-FROM node:16.15.1-alpine3.16 as builder
+FROM node:18.9.0 as builder
 
 # set the working dir for container
 WORKDIR /frontend
